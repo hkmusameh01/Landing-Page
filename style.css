@@ -192,7 +192,7 @@ header .header-content p {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  filter: grayscale(80%);
+  filter: grayscale(50%);
   color: #FFF;
 }
 
