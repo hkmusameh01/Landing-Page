@@ -1,0 +1,123 @@
+@media (max-width: 600px) {  
+  .container {
+    padding: 1rem;
+  }
+
+  .btn {
+    width: 90%;
+    font-size: .65rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    letter-spacing: .07rem;
+  }
+
+  .header-description {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  /* header */
+  header {
+    padding: 2rem 0;
+  }
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  header img {
+    width: 200px;
+    margin: 0 auto 2rem;
+  }
+
+  header .header-content h1 {
+    font-size: 2.6rem
+  }
+
+  header .header-content p {
+    font-size: 1.3rem;
+  }
+
+  /* section #1 */
+  #ipsum {
+    padding: 2rem 0;
+  }
+
+  #ipsum .icons {
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #ipsum i {
+    padding: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  /* Section #2 */
+  #duis {
+    padding: 2rem 0;
+  }
+  #duis .boxes {
+    margin: 1rem 0;
+  }
+
+  .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #duis .box:first-child, #duis .box:last-child {
+    flex-direction: column-reverse;
+  }
+
+  .box-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0rem;
+  }
+
+  #duis .box-img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  #duis img {
+    width: 300px;
+    margin: auto;
+  }
+
+  /* Section #3 */
+  #amet {
+    padding: 2rem;
+  }
+
+  #amet p {
+    width: 100%;
+  }
+
+  /* footer */
+  footer {
+    padding: 2rem 0;
+  }
+
+  footer .box-content {
+    margin-bottom: 3rem;
+  }
+
+  footer form input {
+    width: 100%;
+  }
+}
